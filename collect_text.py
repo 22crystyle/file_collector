@@ -3,18 +3,15 @@ import json
 import logging
 from typing import Dict, List, Set
 
-# в начале модуля
 EXT2LANG = {
     '.java': 'java',
     '.md': 'markdown',
     '.yaml': 'yaml',
     '.yml': 'yaml',
     '.xml': 'xml',
-    # добавьте по необходимости
 }
 
 def setup_logging(log_file: str, overwrite_log: bool = True) -> None:
-    """Настройка системы логирования с контролем перезаписи"""
     mode = 'w' if overwrite_log else 'a'
     handlers = [
         logging.FileHandler(log_file, encoding='utf-8', mode=mode),
