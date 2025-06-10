@@ -1,16 +1,15 @@
 {
-  "start_path": "D:\\Max\\repos\\echo_bot",
-  "extensions": [".java"],
+  "start_path": "/mnt/main/projects/RestBank/",
+  "extensions": [".java", ".yaml", ".yml", ".md"],
   "extra_files": [
-    "application.properties",
-    "build.gradle"
+    "pom.xml"
   ],
   "output_file": "./",
   "include_all_from": [
     "docker"
   ],
   "exclude_dirs": [
-    "build"
+    "target"
   ],
   "output_file": "combined.txt",
   "log_file": "combined.log",
