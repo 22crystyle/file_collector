@@ -1,18 +1,20 @@
 {
-  "start_path": "/mnt/main/projects/RestBank/",
-  "extensions": [".java", ".yaml", ".yml", ".md"],
+  "start_path": "D:\\Max\\repos\\echo_bot",
+  "extensions": [".java"],
   "extra_files": [
-    "pom.xml"
+    "application.properties",
+    "build.gradle"
   ],
   "output_file": "./",
   "include_all_from": [
     "docker"
   ],
   "exclude_dirs": [
-    "target"
+    "build"
   ],
   "output_file": "combined.txt",
   "log_file": "combined.log",
   "overwrite_output": true,
-  "overwrite_log": true
+  "overwrite_log": true,
+  "remove_imports": "non_static"
 }
