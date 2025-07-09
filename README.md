@@ -29,6 +29,7 @@ cd file-collector
   "log_file": "combined.log",
   "overwrite_output": true,
   "overwrite_log": true
+  "remove_imports": "non_static" // must be 'all', 'non_static' or omitted
 }
 ```
 | Параметр         | Описание                                                |
