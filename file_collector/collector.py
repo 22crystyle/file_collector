@@ -1,6 +1,5 @@
 import os, logging
 from typing import List, Set, Dict
-from .constants import EXT2LANG
 
 def normalize_paths(paths: List[str], base_path: str) -> List[str]:
     normalized = []
