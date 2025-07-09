@@ -5,7 +5,6 @@
     "application.properties",
     "build.gradle"
   ],
-  "output_file": "./",
   "include_all_from": [
     "docker"
   ],
