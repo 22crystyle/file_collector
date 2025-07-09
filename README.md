@@ -12,7 +12,7 @@ cd file-collector
 Файл конфигурации `config.json` позволяет настроить параметры работы скрипта. Вот пример конфигурации:
 ```json
 {
-  "start_path": "D:\\Max\\repos\\echo_bot",
+  "start_path": "D:/Max/repos/echo_bot",
   "extensions": [".java"],
   "extra_files": [
     "application.properties",
@@ -23,7 +23,8 @@ cd file-collector
     "docker"
   ],
   "exclude_dirs": [
-    "build"
+    "build",
+    "src/test"
   ],
   "output_file": "combined.txt",
   "log_file": "combined.log",
