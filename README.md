@@ -29,7 +29,7 @@ cd file-collector
   "output_file": "combined.txt",
   "log_file": "combined.log",
   "overwrite_output": true,
-  "overwrite_log": true
+  "overwrite_log": true,
   "remove_imports": "non_static"
 }
 ```
